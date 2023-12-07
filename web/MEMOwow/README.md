@@ -9,7 +9,7 @@
 [MEMOwow.zip](files/MEMOwow.zip)  
 
 ## 難易度
-**hard**  
+**easy**  
 
 ## 作問にあたって
 Base64でエンコードすると攻撃文字列になるXSSなど作りたいなと思っていました(無理)。  
