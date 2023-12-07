@@ -19,7 +19,6 @@ Regexの面白いクロスワードがあったので問題にしました。
 ![RegexCrossword.jpg](files/RegexCrossword.jpg)  
 「正規表現 クロスワード ナプキン」でGoogle画像検索を行う。  
 ![gimg1.png](images/gimg1.png)  
-以下の記事がヒットする。  
 `会津大学`の学食に設置されていたことがわかる。  
 さらに検索結果を見ていくと、[クロスワードを解いた記事](https://tenmei.cocolog-nifty.com/matcha/2015/06/post-d9ac.html)が見つかる。  
 ![gimg2.png](images/gimg2.png)  
