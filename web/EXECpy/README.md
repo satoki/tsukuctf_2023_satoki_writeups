@@ -9,7 +9,7 @@ RCEがめんどくさい？
 [EXECpy.zip](files/EXECpy.zip)  
 
 ## 難易度
-**easy**  
+**hard**  
 
 ## 作問にあたって
 DEF CON 31で小さく開催されていたSpaceX Security Challengeにpotetisenseiと出た際のテクニックをXSSに落とし込みました。  
