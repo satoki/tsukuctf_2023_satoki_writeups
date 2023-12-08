@@ -4,7 +4,9 @@
 RCEがめんどくさい？  
 データをexecに渡しといたからRCE2XSSしてね！  
 
-<URL>TODO  
+[http://118.27.109.12:31416](http://118.27.109.12:31416)  
+
+**AdminBot:** [http://118.27.109.12:31416/crawler](http://118.27.109.12:31416/crawler)  
 
 [EXECpy.zip](files/EXECpy.zip)  
 
