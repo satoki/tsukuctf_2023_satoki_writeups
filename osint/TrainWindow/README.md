@@ -3,7 +3,7 @@
 ## 問題文
 夏、騒音、車窓にて。  
 
-フラグのフォーマットは、TsukuCTF23{緯度_軽度}です。  
+フラグのフォーマットは、TsukuCTF23{緯度_経度}です。  
 緯度経度は小数第五位を切り捨てとします。  
 
 [TrainWindow.jpg](files/TrainWindow.jpg)  
