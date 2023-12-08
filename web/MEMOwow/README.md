@@ -19,10 +19,11 @@ Base64をPythonで扱う際には、`validate=True`にしましょう。
 
 ## 解法
 URLとソースコードが渡される。  
-アクセスするとメモを保存できるサイトのようだ。  
 ![site1.png](images/site1.png)  
-メモを送信すると、メモIDが表示される。  
+アクセスするとメモを保存できるサイトのようだ。  
 ![site2.png](images/site2.png)  
+メモを送信すると、メモIDが表示される。  
+![site3.png](images/site3.png)  
 base64されていそうなので、デコードしてみる。  
 ```bash
 $ echo -n 'U2F0b2tpKOODuzPjg7spdg==' | base64 -d
@@ -30,8 +31,8 @@ Satoki(・3・)v
 ```
 なんとbase64されているものがメモIDになっているようだ(覚える情報量がメモより増えている)。  
 メモの読み取りはこのメモIDを用いるようだ。  
-![site3.png](images/site3.png)  
 ![site4.png](images/site4.png)  
+![site5.png](images/site5.png)  
 ソースを読むと実装は以下のようになっている。  
 ```python
 ~~~
