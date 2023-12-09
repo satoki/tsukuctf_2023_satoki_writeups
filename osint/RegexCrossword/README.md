@@ -1,8 +1,8 @@
 # RegexCrossword
 
 ## 問題文
-クロスワードを解いてみて！  
-これを作った会社の本社の郵便番号をハイフンありで答えてね！！  
+クロスワードを解いてみて!  
+これを作った会社の本社の郵便番号をハイフンありで答えてね!!  
 
 [RegexCrossword.jpg](files/RegexCrossword.jpg)  
 

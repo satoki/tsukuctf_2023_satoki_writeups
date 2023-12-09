@@ -1,9 +1,9 @@
 # CtrlAltPrtSc
 
 ## 問題文
-仕事中にCtrl + Alt + PrtScでウィンドウのスクリーンショットを撮ったよ。  
+仕事中にCtrl + Alt + PrtScでウィンドウのスクリーンショットを撮ったよ。  
 
-つくし君がサボって使用していたサービスの名前を答えよ。フラグは`TsukuCTF23{サービスの名前}`の形式です。  
+つくし君がサボって使用していたサービスの名前を答えよ。 フラグは`TsukuCTF23{サービスの名前}`の形式です。  
 
 [CtrlAltPrtSc.png](files/CtrlAltPrtSc.png)  
 
