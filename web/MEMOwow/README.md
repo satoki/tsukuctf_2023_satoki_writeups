@@ -8,6 +8,9 @@
 
 [MEMOwow.zip](files/MEMOwow.zip)  
 
+Hint  
+wow  
+
 ## 難易度
 **medium**  
 
