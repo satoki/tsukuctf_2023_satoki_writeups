@@ -137,17 +137,7 @@ $ curl 'http://118.27.109.12:31416/?code=print%281%29'
 ここでexecがHTTP通信中に行われるため、Flask(かWerkzeug)がfdを保持しており、そこにデータを流し込むことでうまくレスポンスを書き換えることができそうなことに気づく。  
 もしくは、execで自由度が高いのでPythonのメモリ上に乗っているテンプレートを書き換えることもできるかもしれない。  
 後者はアプリケーションを破壊しそうなので、前者を試す。  
-```python
-for i in range(100):
-    try:
-        f = open(f"/proc/self/fd/{i}", "wb")
-        f.write(b"Satoki")
-        f.close()
-    except:
-        pass
-```
-`/proc/self/fd/`経由で書き込みを試すが失敗する。  
-ここでFlask(かWerkzeug)がfdに書き込んでいないかソースコードを調査する。  
+Flask(かWerkzeug)がfdに書き込んでいないかソースコードを調査する。  
 [Flask Source Code](https://github.com/search?q=repo%3Apallets%2Fflask%20file%20descriptor&type=code)  
 [Werkzeug Source Code](https://github.com/search?q=repo%3Apallets%2Fwerkzeug%20file%20descriptor&type=code)  
 これらを見ると[`socket.fromfd`の箇所](https://github.com/pallets/werkzeug/blob/eafbed0ce2a6bdf60e62de82bf4a8365188ac334/src/werkzeug/serving.py#L778)が使えそうなことがわかる。  
